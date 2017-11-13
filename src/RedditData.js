@@ -1,4 +1,18 @@
 export default [{
+  author: "_BindersFullOfWomen_",
+  permalink: "/r/aww/comments/7atshd/rpitbulls_in_partyhats_rawws_subreddit_of_the_week/",
+  thumbnail: "https://a.thumbs.redditmedia.com/rVzT_5iQfbY4CFQA53LPUTCOWEa5ztb76trZYPyzhk8.jpg",
+  title: "/r/pitbulls_in_partyhats: /r/Aww's Subreddit of the Week",
+  url: "https://www.reddit.com/r/pitbulls_in_partyhats/"
+}, 
+// {
+//   author: "LicencetoKrill",
+//   permalink: "/r/aww/comments/7bveom/school_security_guard_found_this_little_guy/",
+//   thumbnail: "https://b.thumbs.redditmedia.com/T_2jyZYd9TJr7w9B13KZGr2zNnCUzxyP9sMQf9LdtSA.jpg",
+//   title: "School security guard found this little guy trying to sneak into the building.",
+//   url: "https://i.redd.it/e351035pxzwz.jpg"
+// }, 
+{
   author: "operationnos",
   permalink: "/r/aww/comments/7bwtiu/i_havent_found_what_they_broke_yet/",
   thumbnail: "https://b.thumbs.redditmedia.com/wwP80gysG904aHockWakamh51h07U2GXb_r25pPXxJE.jpg",
