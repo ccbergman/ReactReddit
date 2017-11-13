@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #fafafd;
+}
+
+.Heading {
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+h1 {
+  align-items: center;
+  color: rgb(36, 156, 144);
+  font-family: 'Bungee Shade', cursive;
+  font-size: 40px;
+  margin: .5%;
+}
+
+a {
+  color: rgb(109, 0, 109);
+  text-decoration: none;
+  margin: 3%;
+  font-size: 20px;
+}
+
+.GridContents {
+  display: flex;
+	flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 4%;
+}
+
+.PhotoGrid {
+  box-shadow: 0px 1px 5px 5px rgba(0,0,0,0.20);
+  padding: 1%;
+}
+
+.PostInList {
+  display: flex;
+  padding: 1%;
+  box-shadow: 0px 1px 5px 5px rgba(0,0,0,0.20);
+  margin: 2%;
+}
+
+.PostData {
+  font-family: 'Mukta', sans-serif;
+  font-size: 20px;
+  margin-left: 2%;
+  margin-right: 1%;
+}
