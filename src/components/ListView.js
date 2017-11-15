@@ -7,10 +7,10 @@ class ListView extends Component {
 			<article>
 				<section>
 					<div className="PostInList">
-						<img src={this.props.post.thumbnail} alt={this.props.post.thumbnail} />
+						<img src={this.props.post.data.thumbnail} alt={this.props.post.data.thumbnail} />
 						<div className="PostData">
-							<p className="PostTitle">{this.props.post.title}</p>
-							<a className="PostLink" href={this.props.post.url}>Click here!</a>
+							<p className="PostTitle">{this.props.post.data.title}</p>
+							<a className="PostLink" href={this.props.post.data.url}>Click here!</a>
 						</div>
 					</div>
 				</section>

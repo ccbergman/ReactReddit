@@ -5,7 +5,7 @@ class GridView extends Component {
 	render() {
 		return (
 			<div className="PostInGrid">
-				<img className="PhotoGrid" src={this.props.post.thumbnail} />
+				<img className="PhotoGrid" src={this.props.post.data.thumbnail} />
 			</div>
 		);
 	}

@@ -1,21 +1,18 @@
-import data from '../RedditData';
-
 const INITIAL_STATE = {
-	posts: data
+	posts: []
 }
 
 export default function(state = INITIAL_STATE, action) {
     switch (action.type) {
         case "REQUEST_POSTS":
             return Object.assign({}, state, {
-                posts: [],
-                // isLoading: true
+                posts: []
             });
         case "RECEIVE_POSTS":
             return Object.assign({}, state, {
-                posts: action.posts,
-                // isLoading: false
+                posts: action.posts
             });
+            
         default:
             return state;
     }

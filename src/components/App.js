@@ -4,24 +4,23 @@ import GridView from "./GridView";
 import { connect } from 'react-redux';
 import {
   BrowserRouter as Router,
-  Route,
-  Link,
-  Switch,
-  Redirect
+    Route,
+    Link,
+    Switch, Redirect
 } from 'react-router-dom';
 
 class App extends Component {
   render() {
 
-    const postsListView = this.props.posts.map((post) => (
-      <div className="PostListView" >
-        <ListView post={post} key={post.title} />
+    const postsGridView = this.props.posts.map((post) => (
+      <div className="PostGridView" >
+        <GridView post={post} key={post.data.id} />
       </div>
     ));
 
-    const postsGridView = this.props.posts.map((post) => (
-      <div className="PostGridView" >
-        <GridView post={post} key={post.thumbnail} />
+    const postsListView = this.props.posts.map((post) => (
+      <div className="PostListView" >
+        <ListView post={post} key={post.data.id} />
       </div>
     ));
 
